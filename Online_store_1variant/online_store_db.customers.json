@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd008b"
+  },
+  "customerId": 2001,
+  "name": "Алексей Смирнов",
+  "email": "alexey.smirnov@mail.kz",
+  "phone": "+7 701 111 2233",
+  "city": "Алматы",
+  "registrationDate": "2026-03-15",
+  "status": "active",
+  "preferences": {
+    "favoriteCategory": "Smartphones",
+    "newsletter": true
+  },
+  "tags": [
+    "electronics",
+    "smartphones"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd008c"
+  },
+  "customerId": 2002,
+  "name": "Мария Иванова",
+  "email": "maria.ivanova@mail.kz",
+  "phone": "+7 702 222 3344",
+  "city": "Астана",
+  "registrationDate": "2026-04-02",
+  "status": "active",
+  "preferences": {
+    "favoriteCategory": "Laptops",
+    "newsletter": true
+  },
+  "tags": [
+    "laptops",
+    "office"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd008d"
+  },
+  "customerId": 2003,
+  "name": "Дмитрий Ким",
+  "email": "dmitry.kim@mail.kz",
+  "phone": "+7 705 333 4455",
+  "city": "Алматы",
+  "registrationDate": "2026-04-18",
+  "status": "active",
+  "preferences": {
+    "favoriteCategory": "Laptops",
+    "newsletter": false
+  },
+  "tags": [
+    "apple",
+    "laptops"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd008e"
+  },
+  "customerId": 2004,
+  "name": "Анна Петрова",
+  "email": "anna.petrova@mail.kz",
+  "phone": "+7 707 444 5566",
+  "city": "Шымкент",
+  "registrationDate": "2026-05-01",
+  "status": "active",
+  "preferences": {
+    "favoriteCategory": "Laptops",
+    "newsletter": true
+  },
+  "tags": [
+    "business",
+    "windows"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd008f"
+  },
+  "customerId": 2005,
+  "name": "Сергей Волков",
+  "email": "sergey.volkov@mail.kz",
+  "phone": "+7 747 555 6677",
+  "city": "Караганда",
+  "registrationDate": "2026-05-12",
+  "status": "active",
+  "preferences": {
+    "favoriteCategory": "Headphones",
+    "newsletter": false
+  },
+  "tags": [
+    "audio",
+    "wireless"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd0090"
+  },
+  "customerId": 2006,
+  "name": "Екатерина Соколова",
+  "email": "ekaterina.sokolova@mail.kz",
+  "phone": "+7 775 666 7788",
+  "city": "Алматы",
+  "registrationDate": "2026-05-25",
+  "status": "active",
+  "preferences": {
+    "favoriteCategory": "Tablets",
+    "newsletter": true
+  },
+  "tags": [
+    "apple",
+    "tablets"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd0091"
+  },
+  "customerId": 2007,
+  "name": "Илья Морозов",
+  "email": "ilya.morozov@mail.kz",
+  "phone": "+7 776 777 8899",
+  "city": "Актобе",
+  "registrationDate": "2026-06-03",
+  "status": "inactive",
+  "preferences": {
+    "favoriteCategory": "Accessories",
+    "newsletter": false
+  },
+  "tags": [
+    "gaming",
+    "accessories"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd0092"
+  },
+  "customerId": 2008,
+  "name": "Ольга Назарова",
+  "email": "olga.nazarova@mail.kz",
+  "phone": "+7 778 888 9900",
+  "city": "Астана",
+  "registrationDate": "2026-06-17",
+  "status": "active",
+  "preferences": {
+    "favoriteCategory": "Tablets",
+    "newsletter": true
+  },
+  "tags": [
+    "tablets",
+    "wireless"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd0093"
+  },
+  "customerId": 2009,
+  "name": "Максим Орлов",
+  "email": "maxim.orlov@mail.kz",
+  "phone": "+7 700 999 0011",
+  "city": "Алматы",
+  "registrationDate": "2026-07-04",
+  "status": "active",
+  "preferences": {
+    "favoriteCategory": "Smartphones",
+    "newsletter": true
+  },
+  "tags": [
+    "smartphones",
+    "office"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a97cd64e4ccaf2311fd0094"
+  },
+  "customerId": 2010,
+  "name": "Наталья Белова",
+  "email": "natalia.belova@mail.kz",
+  "phone": "+7 701 000 1122",
+  "city": "Алматы",
+  "registrationDate": "2026-07-19",
+  "status": "active",
+  "preferences": {
+    "favoriteCategory": "Laptops",
+    "newsletter": true
+  },
+  "tags": [
+    "apple",
+    "audio"
+  ]
+}]

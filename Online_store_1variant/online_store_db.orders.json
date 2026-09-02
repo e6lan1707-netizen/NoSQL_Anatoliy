@@ -1,0 +1,266 @@
+[{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd0081"
+  },
+  "orderId": 5001,
+  "customerId": 2001,
+  "orderDate": "2026-08-20",
+  "status": "Delivered",
+  "totalPrice": 509800,
+  "items": [
+    {
+      "productId": 1001,
+      "name": "iPhone 15",
+      "quantity": 1,
+      "price": 389900
+    },
+    {
+      "productId": 1006,
+      "name": "AirPods Pro 2",
+      "quantity": 1,
+      "price": 119900
+    }
+  ],
+  "delivery": {
+    "city": "Almaty",
+    "street": "Abay",
+    "house": 25
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd0082"
+  },
+  "orderId": 5002,
+  "customerId": 2002,
+  "orderDate": "2026-08-21",
+  "status": "Processing",
+  "totalPrice": 349900,
+  "items": [
+    {
+      "productId": 1002,
+      "name": "Galaxy S24",
+      "quantity": 1,
+      "price": 349900
+    }
+  ],
+  "delivery": {
+    "city": "Astana",
+    "street": "Kabanbay Batyr",
+    "house": 42
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd0083"
+  },
+  "orderId": 5003,
+  "customerId": 2003,
+  "orderDate": "2026-08-21",
+  "status": "Shipped",
+  "totalPrice": 599900,
+  "items": [
+    {
+      "productId": 1003,
+      "name": "MacBook Air M3",
+      "quantity": 1,
+      "price": 599900
+    }
+  ],
+  "delivery": {
+    "city": "Almaty",
+    "street": "Dostyk",
+    "house": 17
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd0084"
+  },
+  "orderId": 5004,
+  "customerId": 2004,
+  "orderDate": "2026-08-22",
+  "status": "Delivered",
+  "totalPrice": 329900,
+  "items": [
+    {
+      "productId": 1004,
+      "name": "ThinkPad E14",
+      "quantity": 1,
+      "price": 329900
+    }
+  ],
+  "delivery": {
+    "city": "Shymkent",
+    "street": "Tauke Khan",
+    "house": 11
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd0085"
+  },
+  "orderId": 5005,
+  "customerId": 2005,
+  "orderDate": "2026-08-23",
+  "status": "Processing",
+  "totalPrice": 199800,
+  "items": [
+    {
+      "productId": 1005,
+      "name": "WH-1000XM5",
+      "quantity": 1,
+      "price": 149900
+    },
+    {
+      "productId": 1007,
+      "name": "MX Master 3S",
+      "quantity": 1,
+      "price": 49900
+    }
+  ],
+  "delivery": {
+    "city": "Karaganda",
+    "street": "Bukhar Zhyrau",
+    "house": 35
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd0086"
+  },
+  "orderId": 5006,
+  "customerId": 2006,
+  "orderDate": "2026-08-24",
+  "status": "Delivered",
+  "totalPrice": 279900,
+  "items": [
+    {
+      "productId": 1009,
+      "name": "iPad Air",
+      "quantity": 1,
+      "price": 279900
+    }
+  ],
+  "delivery": {
+    "city": "Almaty",
+    "street": "Tole Bi",
+    "house": 64
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd0087"
+  },
+  "orderId": 5007,
+  "customerId": 2007,
+  "orderDate": "2026-08-25",
+  "status": "Cancelled",
+  "totalPrice": 69900,
+  "items": [
+    {
+      "productId": 1008,
+      "name": "Mechanical Keyboard K8",
+      "quantity": 1,
+      "price": 69900
+    }
+  ],
+  "delivery": {
+    "city": "Aktobe",
+    "street": "Abulkhair Khan",
+    "house": 9
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd0088"
+  },
+  "orderId": 5008,
+  "customerId": 2008,
+  "orderDate": "2026-08-26",
+  "status": "Shipped",
+  "totalPrice": 419700,
+  "items": [
+    {
+      "productId": 1010,
+      "name": "Galaxy Tab S9",
+      "quantity": 1,
+      "price": 249900
+    },
+    {
+      "productId": 1007,
+      "name": "MX Master 3S",
+      "quantity": 1,
+      "price": 49900
+    },
+    {
+      "productId": 1006,
+      "name": "AirPods Pro 2",
+      "quantity": 1,
+      "price": 119900
+    }
+  ],
+  "delivery": {
+    "city": "Astana",
+    "street": "Saryarka",
+    "house": 28
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd0089"
+  },
+  "orderId": 5009,
+  "customerId": 2009,
+  "orderDate": "2026-08-27",
+  "status": "Processing",
+  "totalPrice": 399800,
+  "items": [
+    {
+      "productId": 1002,
+      "name": "Galaxy S24",
+      "quantity": 1,
+      "price": 349900
+    },
+    {
+      "productId": 1007,
+      "name": "MX Master 3S",
+      "quantity": 1,
+      "price": 49900
+    }
+  ],
+  "delivery": {
+    "city": "Almaty",
+    "street": "Zheltoksan",
+    "house": 31
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97cccce4ccaf2311fd008a"
+  },
+  "orderId": 5010,
+  "customerId": 2010,
+  "orderDate": "2026-08-28",
+  "status": "Delivered",
+  "totalPrice": 719800,
+  "items": [
+    {
+      "productId": 1003,
+      "name": "MacBook Air M3",
+      "quantity": 1,
+      "price": 599900
+    },
+    {
+      "productId": 1006,
+      "name": "AirPods Pro 2",
+      "quantity": 1,
+      "price": 119900
+    }
+  ],
+  "delivery": {
+    "city": "Almaty",
+    "street": "Al-Farabi",
+    "house": 77
+  }
+}]

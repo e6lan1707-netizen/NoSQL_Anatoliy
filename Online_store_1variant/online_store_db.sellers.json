@@ -1,0 +1,209 @@
+[{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b053c"
+  },
+  "sellerId": 3001,
+  "name": "Александр Ковалёв",
+  "email": "a.kovalev@shop.kz",
+  "phone": "+7 701 123 4567",
+  "city": "Алматы",
+  "rating": 4.9,
+  "experienceYears": 5,
+  "status": "active",
+  "categories": [
+    "Smartphones",
+    "Tablets"
+  ],
+  "statistics": {
+    "salesCount": 342,
+    "revenue": 98500000
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b053d"
+  },
+  "sellerId": 3002,
+  "name": "Виктория Орлова",
+  "email": "v.orlova@shop.kz",
+  "phone": "+7 702 234 5678",
+  "city": "Астана",
+  "rating": 4.8,
+  "experienceYears": 4,
+  "status": "active",
+  "categories": [
+    "Laptops",
+    "Accessories"
+  ],
+  "statistics": {
+    "salesCount": 287,
+    "revenue": 76200000
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b053e"
+  },
+  "sellerId": 3003,
+  "name": "Денис Соколов",
+  "email": "d.sokolov@shop.kz",
+  "phone": "+7 705 345 6789",
+  "city": "Алматы",
+  "rating": 4.7,
+  "experienceYears": 3,
+  "status": "active",
+  "categories": [
+    "Headphones",
+    "Accessories"
+  ],
+  "statistics": {
+    "salesCount": 214,
+    "revenue": 43800000
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b053f"
+  },
+  "sellerId": 3004,
+  "name": "Елена Морозова",
+  "email": "e.morozova@shop.kz",
+  "phone": "+7 707 456 7890",
+  "city": "Шымкент",
+  "rating": 4.6,
+  "experienceYears": 2,
+  "status": "active",
+  "categories": [
+    "Laptops",
+    "Tablets"
+  ],
+  "statistics": {
+    "salesCount": 156,
+    "revenue": 51900000
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b0540"
+  },
+  "sellerId": 3005,
+  "name": "Игорь Назаров",
+  "email": "i.nazarov@shop.kz",
+  "phone": "+7 747 567 8901",
+  "city": "Караганда",
+  "rating": 4.5,
+  "experienceYears": 2,
+  "status": "active",
+  "categories": [
+    "Accessories"
+  ],
+  "statistics": {
+    "salesCount": 189,
+    "revenue": 27400000
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b0541"
+  },
+  "sellerId": 3006,
+  "name": "Марина Волкова",
+  "email": "m.volkova@shop.kz",
+  "phone": "+7 775 678 9012",
+  "city": "Алматы",
+  "rating": 4.9,
+  "experienceYears": 6,
+  "status": "active",
+  "categories": [
+    "Smartphones",
+    "Headphones"
+  ],
+  "statistics": {
+    "salesCount": 421,
+    "revenue": 112500000
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b0542"
+  },
+  "sellerId": 3007,
+  "name": "Роман Ким",
+  "email": "r.kim@shop.kz",
+  "phone": "+7 776 789 0123",
+  "city": "Актобе",
+  "rating": 4.4,
+  "experienceYears": 1,
+  "status": "inactive",
+  "categories": [
+    "Accessories",
+    "Tablets"
+  ],
+  "statistics": {
+    "salesCount": 98,
+    "revenue": 18900000
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b0543"
+  },
+  "sellerId": 3008,
+  "name": "София Белова",
+  "email": "s.belova@shop.kz",
+  "phone": "+7 778 890 1234",
+  "city": "Астана",
+  "rating": 4.8,
+  "experienceYears": 4,
+  "status": "active",
+  "categories": [
+    "Tablets",
+    "Smartphones"
+  ],
+  "statistics": {
+    "salesCount": 301,
+    "revenue": 84700000
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b0544"
+  },
+  "sellerId": 3009,
+  "name": "Максим Орлов",
+  "email": "m.orlov@shop.kz",
+  "phone": "+7 700 901 2345",
+  "city": "Алматы",
+  "rating": 4.3,
+  "experienceYears": 1,
+  "status": "active",
+  "categories": [
+    "Accessories"
+  ],
+  "statistics": {
+    "salesCount": 76,
+    "revenue": 12600000
+  }
+},
+{
+  "_id": {
+    "$oid": "6a97d0776c65d4a3c52b0545"
+  },
+  "sellerId": 3010,
+  "name": "Наталья Кузнецова",
+  "email": "n.kuznetsova@shop.kz",
+  "phone": "+7 701 012 3456",
+  "city": "Алматы",
+  "rating": 5,
+  "experienceYears": 7,
+  "status": "active",
+  "categories": [
+    "Laptops",
+    "Smartphones",
+    "Tablets"
+  ],
+  "statistics": {
+    "salesCount": 512,
+    "revenue": 148300000
+  }
+}]

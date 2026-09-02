@@ -1,0 +1,208 @@
+[{
+  "_id": {
+    "$oid": "6a97beb7e4ccaf2311fd0077"
+  },
+  "productId": 1001,
+  "name": "iPhone 15",
+  "brand": "Apple",
+  "category": "Smartphones",
+  "price": 389900,
+  "stock": 15,
+  "rating": 4.8999999999999995,
+  "tags": [
+    "smartphone",
+    "ios",
+    "5g",
+    "premium"
+  ],
+  "specifications": {
+    "color": "Black",
+    "memory": "128GB",
+    "screen": 6.1
+  },
+  "sellerId": 3001
+},
+{
+  "_id": {
+    "$oid": "6a97beb7e4ccaf2311fd0078"
+  },
+  "productId": 1002,
+  "name": "Galaxy S24",
+  "brand": "Samsung",
+  "category": "Smartphones",
+  "price": 349900,
+  "stock": 22,
+  "rating": 4.7,
+  "tags": [
+    "smartphone",
+    "android",
+    "5g"
+  ],
+  "specifications": {
+    "color": "Gray",
+    "memory": "256GB",
+    "screen": 6.2
+  },
+  "sellerId": 3006
+},
+{
+  "_id": {
+    "$oid": "6a97beb7e4ccaf2311fd0079"
+  },
+  "productId": 1003,
+  "name": "MacBook Air M3",
+  "brand": "Apple",
+  "category": "Laptops",
+  "price": 599900,
+  "stock": 8,
+  "rating": 5,
+  "tags": [
+    "laptop",
+    "macos",
+    "m3"
+  ],
+  "specifications": {
+    "color": "Silver",
+    "memory": "512GB",
+    "ram": 16
+  },
+  "sellerId": 3010
+},
+{
+  "_id": {
+    "$oid": "6a97beb7e4ccaf2311fd007a"
+  },
+  "productId": 1004,
+  "name": "ThinkPad E14",
+  "brand": "Lenovo",
+  "category": "Laptops",
+  "price": 329900,
+  "stock": 12,
+  "rating": 4.5,
+  "tags": [
+    "laptop",
+    "business",
+    "windows"
+  ],
+  "specifications": {
+    "color": "Black",
+    "memory": "512GB",
+    "ram": 16
+  },
+  "sellerId": 3002
+},
+{
+  "_id": {
+    "$oid": "6a97beb7e4ccaf2311fd007b"
+  },
+  "productId": 1005,
+  "name": "WH-1000XM5",
+  "brand": "Sony",
+  "category": "Headphones",
+  "price": 149900,
+  "stock": 30,
+  "rating": 4.8,
+  "tags": [
+    "headphones",
+    "wireless",
+    "anc"
+  ],
+  "specifications": {
+    "color": "Black",
+    "connection": "Bluetooth",
+    "battery": 30
+  },
+  "sellerId": 3003
+},
+{
+  "_id": {
+    "$oid": "6a97beb7e4ccaf2311fd007c"
+  },
+  "productId": 1006,
+  "name": "AirPods Pro 2",
+  "brand": "Apple",
+  "category": "Headphones",
+  "price": 119900,
+  "stock": 25,
+  "rating": 4.8,
+  "tags": [
+    "earbuds",
+    "wireless",
+    "anc"
+  ],
+  "specifications": {
+    "color": "White",
+    "connection": "Bluetooth",
+    "battery": 24
+  },
+  "sellerId": 3006
+},
+{
+  "_id": {
+    "$oid": "6a97beb7e4ccaf2311fd007d"
+  },
+  "productId": 1007,
+  "name": "MX Master 3S",
+  "brand": "Logitech",
+  "category": "Accessories",
+  "price": 49900,
+  "stock": 40,
+  "rating": 4.6,
+  "tags": [
+    "mouse",
+    "wireless",
+    "office"
+  ],
+  "specifications": {
+    "color": "Graphite",
+    "connection": "Bluetooth",
+    "dpi": 8000
+  },
+  "sellerId": 3005
+},
+{
+  "_id": {
+    "$oid": "6a97beb7e4ccaf2311fd007f"
+  },
+  "productId": 1009,
+  "name": "iPad Air",
+  "brand": "Apple",
+  "category": "Tablets",
+  "price": 279900,
+  "stock": 14,
+  "rating": 4.8999999999999995,
+  "tags": [
+    "tablet",
+    "ios",
+    "touchscreen"
+  ],
+  "specifications": {
+    "color": "Blue",
+    "memory": "256GB",
+    "screen": 10.9
+  },
+  "sellerId": 3008
+},
+{
+  "_id": {
+    "$oid": "6a97beb7e4ccaf2311fd0080"
+  },
+  "productId": 1010,
+  "name": "Galaxy Tab S9",
+  "brand": "Samsung",
+  "category": "Tablets",
+  "price": 249900,
+  "stock": 10,
+  "rating": 4.6,
+  "tags": [
+    "tablet",
+    "android",
+    "amoled"
+  ],
+  "specifications": {
+    "color": "Gray",
+    "memory": "128GB",
+    "screen": 11
+  },
+  "sellerId": 3004
+}]
