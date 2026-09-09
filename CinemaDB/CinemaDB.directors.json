@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "6aa1098eb3f24f69ae2b8c32"
+  },
+  "directorId": 501,
+  "name": "Christopher Nolan",
+  "country": "United Kingdom",
+  "birthYear": 1970,
+  "filmsCount": 12
+},
+{
+  "_id": {
+    "$oid": "6aa1098eb3f24f69ae2b8c33"
+  },
+  "directorId": 502,
+  "name": "Lana Wachowski",
+  "country": "United States",
+  "birthYear": 1965,
+  "filmsCount": 7
+},
+{
+  "_id": {
+    "$oid": "6aa1098eb3f24f69ae2b8c34"
+  },
+  "directorId": 503,
+  "name": "Ridley Scott",
+  "country": "United Kingdom",
+  "birthYear": 1937,
+  "filmsCount": 28
+},
+{
+  "_id": {
+    "$oid": "6aa1098eb3f24f69ae2b8c35"
+  },
+  "directorId": 504,
+  "name": "Denis Villeneuve",
+  "country": "Canada",
+  "birthYear": 1967,
+  "filmsCount": 11
+},
+{
+  "_id": {
+    "$oid": "6aa1098eb3f24f69ae2b8c36"
+  },
+  "directorId": 505,
+  "name": "Bong Joon-ho",
+  "country": "South Korea",
+  "birthYear": 1969,
+  "filmsCount": 8
+}]

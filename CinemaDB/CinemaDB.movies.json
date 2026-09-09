@@ -1,0 +1,288 @@
+[{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c22"
+  },
+  "movieId": 1001,
+  "title": "Interstellar",
+  "year": 2014,
+  "genre": "Sci-Fi",
+  "duration": 169,
+  "rating": 8.7,
+  "details": {
+    "country": "USA",
+    "language": "English",
+    "ageRating": "12+",
+    "budget": 165000000
+  },
+  "actors": [
+    "Matthew McConaughey",
+    "Anne Hathaway",
+    "Jessica Chastain",
+    "Michael Caine"
+  ],
+  "cinemaIds": [
+    401,
+    402
+  ],
+  "screenings": [
+    {
+      "date": "2026-09-10",
+      "time": "18:30",
+      "hall": 1,
+      "price": 2500
+    },
+    {
+      "date": "2026-09-10",
+      "time": "21:30",
+      "hall": 2,
+      "price": 3000
+    }
+  ],
+  "directorId": 501
+},
+{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c23"
+  },
+  "movieId": 1002,
+  "title": "Inception",
+  "year": 2010,
+  "genre": "Sci-Fi",
+  "duration": 148,
+  "rating": 8.8,
+  "details": {
+    "country": "USA",
+    "language": "English",
+    "ageRating": "12+",
+    "budget": 160000000
+  },
+  "actors": [
+    "Leonardo DiCaprio",
+    "Joseph Gordon-Levitt",
+    "Tom Hardy"
+  ],
+  "cinemaIds": [
+    401,
+    403
+  ],
+  "directorId": 501
+},
+{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c24"
+  },
+  "movieId": 1003,
+  "title": "The Dark Knight",
+  "year": 2008,
+  "genre": "Action",
+  "duration": 152,
+  "rating": 9,
+  "details": {
+    "country": "USA",
+    "language": "English",
+    "ageRating": "16+",
+    "budget": 185000000
+  },
+  "actors": [
+    "Christian Bale",
+    "Heath Ledger",
+    "Gary Oldman"
+  ],
+  "cinemaIds": [
+    401,
+    402,
+    404
+  ],
+  "directorId": 501
+},
+{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c25"
+  },
+  "movieId": 1004,
+  "title": "The Matrix",
+  "year": 1999,
+  "genre": "Sci-Fi",
+  "duration": 136,
+  "rating": 8.7,
+  "details": {
+    "country": "USA",
+    "language": "English",
+    "ageRating": "16+",
+    "budget": 63000000
+  },
+  "actors": [
+    "Keanu Reeves",
+    "Laurence Fishburne",
+    "Carrie-Anne Moss"
+  ],
+  "cinemaIds": [
+    402,
+    404
+  ],
+  "directorId": 502
+},
+{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c26"
+  },
+  "movieId": 1005,
+  "title": "Gladiator",
+  "year": 2000,
+  "genre": "Drama",
+  "duration": 155,
+  "rating": 8.5,
+  "details": {
+    "country": "USA",
+    "language": "English",
+    "ageRating": "16+",
+    "budget": 103000000
+  },
+  "actors": [
+    "Russell Crowe",
+    "Joaquin Phoenix",
+    "Connie Nielsen"
+  ],
+  "cinemaIds": [
+    403,
+    404
+  ],
+  "directorId": 503
+},
+{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c27"
+  },
+  "movieId": 1006,
+  "title": "Dune: Part Two",
+  "year": 2024,
+  "genre": "Sci-Fi",
+  "duration": 166,
+  "rating": 8.6,
+  "details": {
+    "country": "USA",
+    "language": "English",
+    "ageRating": "12+",
+    "budget": 190000000
+  },
+  "actors": [
+    "Timothée Chalamet",
+    "Zendaya",
+    "Rebecca Ferguson"
+  ],
+  "cinemaIds": [
+    401,
+    402,
+    403
+  ],
+  "directorId": 504
+},
+{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c28"
+  },
+  "movieId": 1007,
+  "title": "Oppenheimer",
+  "year": 2023,
+  "genre": "Drama",
+  "duration": 180,
+  "rating": 8.6,
+  "details": {
+    "country": "USA",
+    "language": "English",
+    "ageRating": "16+",
+    "budget": 100000000
+  },
+  "actors": [
+    "Cillian Murphy",
+    "Emily Blunt",
+    "Matt Damon"
+  ],
+  "cinemaIds": [
+    401,
+    404
+  ],
+  "directorId": 501
+},
+{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c29"
+  },
+  "movieId": 1008,
+  "title": "Spider-Man: No Way Home",
+  "year": 2021,
+  "genre": "Action",
+  "duration": 148,
+  "rating": 8.2,
+  "details": {
+    "country": "USA",
+    "language": "English",
+    "ageRating": "12+",
+    "budget": 200000000
+  },
+  "actors": [
+    "Tom Holland",
+    "Zendaya",
+    "Benedict Cumberbatch"
+  ],
+  "cinemaIds": [
+    402,
+    403
+  ],
+  "directorId": 501
+},
+{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c2a"
+  },
+  "movieId": 1009,
+  "title": "Avatar: The Way of Water",
+  "year": 2022,
+  "genre": "Fantasy",
+  "duration": 192,
+  "rating": 7.6,
+  "details": {
+    "country": "USA",
+    "language": "English",
+    "ageRating": "12+",
+    "budget": 350000000
+  },
+  "actors": [
+    "Sam Worthington",
+    "Zoe Saldana",
+    "Sigourney Weaver"
+  ],
+  "cinemaIds": [
+    401,
+    403,
+    404
+  ],
+  "directorId": 502
+},
+{
+  "_id": {
+    "$oid": "6aa0f7fbb3f24f69ae2b8c2b"
+  },
+  "movieId": 1010,
+  "title": "Parasite",
+  "year": 2019,
+  "genre": "Thriller",
+  "duration": 132,
+  "rating": 8.5,
+  "details": {
+    "country": "South Korea",
+    "language": "Korean",
+    "ageRating": "16+",
+    "budget": 11400000
+  },
+  "actors": [
+    "Song Kang-ho",
+    "Lee Sun-kyun",
+    "Cho Yeo-jeong"
+  ],
+  "cinemaIds": [
+    402,
+    404
+  ],
+  "directorId": 505
+}]

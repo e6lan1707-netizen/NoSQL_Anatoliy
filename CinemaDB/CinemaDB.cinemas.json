@@ -1,0 +1,69 @@
+[{
+  "_id": 401,
+  "cinemaId": 401,
+  "name": "Kinopark Dostyk",
+  "city": "Almaty",
+  "address": "Dostyk Avenue 40",
+  "screens": 8,
+  "phone": "+7 727 111 2233",
+  "features": [
+    "IMAX",
+    "3D",
+    "Dolby Atmos"
+  ]
+},
+{
+  "_id": 402,
+  "cinemaId": 402,
+  "name": "Chaplin Mega",
+  "city": "Almaty",
+  "address": "Rozybakiev Street 247",
+  "screens": 7,
+  "phone": "+7 727 222 3344",
+  "features": [
+    "IMAX",
+    "3D",
+    "VIP"
+  ]
+},
+{
+  "_id": 403,
+  "cinemaId": 403,
+  "name": "Kinopark Astana",
+  "city": "Astana",
+  "address": "Kabanbay Batyr Avenue 21",
+  "screens": 10,
+  "phone": "+7 717 333 4455",
+  "features": [
+    "IMAX",
+    "4DX",
+    "Dolby Atmos"
+  ]
+},
+{
+  "_id": 404,
+  "cinemaId": 404,
+  "name": "Arman Cinema",
+  "city": "Almaty",
+  "address": "Dostyk Avenue 104",
+  "screens": 6,
+  "phone": "+7 727 444 5566",
+  "features": [
+    "3D",
+    "VIP"
+  ]
+},
+{
+  "_id": 405,
+  "cinemaId": 405,
+  "name": "Cinemax Shymkent",
+  "city": "Shymkent",
+  "address": "Tauke Khan Avenue 59",
+  "screens": 5,
+  "phone": "+7 725 555 6677",
+  "features": [
+    "3D",
+    "VIP",
+    "Dolby Atmos"
+  ]
+}]

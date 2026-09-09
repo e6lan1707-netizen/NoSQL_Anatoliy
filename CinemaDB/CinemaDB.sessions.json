@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c37"
+  },
+  "sessionId": 6001,
+  "movieId": 1001,
+  "cinemaId": 401,
+  "date": "2026-09-10",
+  "time": "18:30",
+  "hall": 1,
+  "price": 2500,
+  "availableSeats": 87
+},
+{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c38"
+  },
+  "sessionId": 6002,
+  "movieId": 1001,
+  "cinemaId": 402,
+  "date": "2026-09-10",
+  "time": "21:30",
+  "hall": 2,
+  "price": 3000,
+  "availableSeats": 54
+},
+{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c39"
+  },
+  "sessionId": 6003,
+  "movieId": 1002,
+  "cinemaId": 401,
+  "date": "2026-09-11",
+  "time": "19:00",
+  "hall": 3,
+  "price": 2800,
+  "availableSeats": 73
+},
+{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c3a"
+  },
+  "sessionId": 6004,
+  "movieId": 1003,
+  "cinemaId": 402,
+  "date": "2026-09-11",
+  "time": "20:00",
+  "hall": 4,
+  "price": 2700,
+  "availableSeats": 41
+},
+{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c3b"
+  },
+  "sessionId": 6005,
+  "movieId": 1003,
+  "cinemaId": 404,
+  "date": "2026-09-12",
+  "time": "22:00",
+  "hall": 2,
+  "price": 2300,
+  "availableSeats": 65
+},
+{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c3c"
+  },
+  "sessionId": 6006,
+  "movieId": 1004,
+  "cinemaId": 402,
+  "date": "2026-09-12",
+  "time": "18:00",
+  "hall": 5,
+  "price": 2200,
+  "availableSeats": 92
+},
+{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c3d"
+  },
+  "sessionId": 6007,
+  "movieId": 1005,
+  "cinemaId": 403,
+  "date": "2026-09-13",
+  "time": "19:30",
+  "hall": 1,
+  "price": 2600,
+  "availableSeats": 38
+},
+{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c3e"
+  },
+  "sessionId": 6008,
+  "movieId": 1006,
+  "cinemaId": 401,
+  "date": "2026-09-13",
+  "time": "20:30",
+  "hall": 6,
+  "price": 3200,
+  "availableSeats": 76
+},
+{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c3f"
+  },
+  "sessionId": 6009,
+  "movieId": 1007,
+  "cinemaId": 404,
+  "date": "2026-09-14",
+  "time": "18:30",
+  "hall": 3,
+  "price": 2500,
+  "availableSeats": 49
+},
+{
+  "_id": {
+    "$oid": "6aa109cab3f24f69ae2b8c40"
+  },
+  "sessionId": 6010,
+  "movieId": 1010,
+  "cinemaId": 402,
+  "date": "2026-09-14",
+  "time": "21:00",
+  "hall": 4,
+  "price": 2400,
+  "availableSeats": 57
+}]
