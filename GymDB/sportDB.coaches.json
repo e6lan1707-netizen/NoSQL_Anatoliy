@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6aaa335ad8a7c92bb6ad725d"
+  },
+  "coachId": 501,
+  "name": "Sergey Volkov",
+  "specialization": "Powerlifting",
+  "experience": 12,
+  "rating": 9.6,
+  "active": true,
+  "contact": {
+    "phone": "+7 700 111 2233",
+    "room": "Gym A"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa335ad8a7c92bb6ad725e"
+  },
+  "coachId": 502,
+  "name": "Marat Sadykov",
+  "specialization": "Boxing",
+  "experience": 10,
+  "rating": 9.2,
+  "active": true,
+  "contact": {
+    "phone": "+7 701 222 3344",
+    "room": "Boxing Hall"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa335ad8a7c92bb6ad725f"
+  },
+  "coachId": 503,
+  "name": "Anna Petrova",
+  "specialization": "Swimming",
+  "experience": 8,
+  "rating": 8.9,
+  "active": true,
+  "contact": {
+    "phone": "+7 702 333 4455",
+    "room": "Pool 1"
+  }
+},
+{
+  "_id": {
+    "$oid": "6aaa335ad8a7c92bb6ad7260"
+  },
+  "coachId": 504,
+  "name": "Rustam Karimov",
+  "specialization": "Football",
+  "experience": 15,
+  "rating": 9.4,
+  "active": false,
+  "contact": {
+    "phone": "+7 705 444 5566",
+    "room": "Field A"
+  }
+}]

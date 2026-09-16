@@ -1,0 +1,171 @@
+[{
+  "_id": {
+    "$oid": "6aaa2f2fd8a7c92bb6ad7252"
+  },
+  "athleteId": 1001,
+  "name": "Anatoliy Boldyrev",
+  "age": 19,
+  "sport": "Powerlifting",
+  "experience": 3,
+  "rating": 9,
+  "active": true,
+  "physicalData": {
+    "height": 180,
+    "weight": 78,
+    "bodyType": "Athletic"
+  },
+  "achievements": [
+    "City Championship participant",
+    "Gym Cup 2025",
+    "Sport Club 2026",
+    "Gym Training Award"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aaa2f71d8a7c92bb6ad7253"
+  },
+  "athleteId": 1002,
+  "name": "Arman Kadyrov",
+  "age": 21,
+  "sport": "Boxing",
+  "experience": 4,
+  "rating": 9.1,
+  "active": true,
+  "physicalData": {
+    "height": 182,
+    "weight": 82,
+    "bodyType": "Muscular"
+  },
+  "achievements": [
+    "Almaty Boxing Cup",
+    "Regional Championship"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aaa2f71d8a7c92bb6ad7254"
+  },
+  "athleteId": 1003,
+  "name": "Damir Sarsenov",
+  "age": 20,
+  "sport": "Football",
+  "experience": 5,
+  "rating": 8.4,
+  "active": true,
+  "physicalData": {
+    "height": 178,
+    "weight": 74,
+    "bodyType": "Athletic"
+  },
+  "achievements": [
+    "University League",
+    "City Championship"
+  ],
+  "status": "Team Member"
+},
+{
+  "_id": {
+    "$oid": "6aaa2f71d8a7c92bb6ad7255"
+  },
+  "athleteId": 1004,
+  "name": "Aliya Nurmanova",
+  "age": 19,
+  "sport": "Swimming",
+  "experience": 3,
+  "rating": 8.9,
+  "active": true,
+  "physicalData": {
+    "height": 170,
+    "weight": 62,
+    "bodyType": "Slim"
+  },
+  "achievements": [
+    "Swimming Cup",
+    "Regional Championship"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aaa2f71d8a7c92bb6ad7256"
+  },
+  "athleteId": 1005,
+  "name": "Daniyar Akhmetov",
+  "age": 24,
+  "sport": "Powerlifting",
+  "experience": 6,
+  "rating": 9.5,
+  "active": true,
+  "physicalData": {
+    "height": 185,
+    "weight": 105,
+    "bodyType": "Muscular"
+  },
+  "achievements": [
+    "National Championship",
+    "Powerlifting Cup",
+    "City Record"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aaa2f71d8a7c92bb6ad7257"
+  },
+  "athleteId": 1006,
+  "name": "Aruzhan Bekova",
+  "age": 22,
+  "sport": "Athletics",
+  "experience": 4,
+  "rating": 8.2,
+  "active": true,
+  "physicalData": {
+    "height": 168,
+    "weight": 57,
+    "bodyType": "Athletic"
+  },
+  "achievements": [
+    "Almaty Marathon",
+    "Athletics Cup"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aaa2f71d8a7c92bb6ad7258"
+  },
+  "athleteId": 1007,
+  "name": "Islam Musabaev",
+  "age": 23,
+  "sport": "Kickboxing",
+  "experience": 5,
+  "rating": 9,
+  "active": true,
+  "physicalData": {
+    "height": 180,
+    "weight": 80,
+    "bodyType": "Muscular"
+  },
+  "achievements": [
+    "City Kickboxing Cup",
+    "Regional Championship"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aaa2f71d8a7c92bb6ad725a"
+  },
+  "athleteId": 1009,
+  "name": "Madi Zhaksybek",
+  "age": 19,
+  "sport": "Swimming",
+  "experience": 2,
+  "rating": 7.8,
+  "active": true,
+  "physicalData": {
+    "height": 176,
+    "weight": 68,
+    "bodyType": "Slim"
+  },
+  "achievements": [
+    "Junior Swimming Cup"
+  ]
+}]

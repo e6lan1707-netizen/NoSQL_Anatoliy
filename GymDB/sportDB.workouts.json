@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "6aaa3371d8a7c92bb6ad7261"
+  },
+  "workoutId": 701,
+  "title": "Heavy Strength",
+  "sport": "Powerlifting",
+  "coachId": 501,
+  "duration": 90,
+  "capacity": 12,
+  "active": true,
+  "equipment": [
+    "Barbell",
+    "Bench",
+    "Squat Rack"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aaa3371d8a7c92bb6ad7262"
+  },
+  "workoutId": 702,
+  "title": "Boxing Basics",
+  "sport": "Boxing",
+  "coachId": 502,
+  "duration": 60,
+  "capacity": 15,
+  "active": true,
+  "equipment": [
+    "Punching Bag",
+    "Gloves",
+    "Jump Rope"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aaa3371d8a7c92bb6ad7263"
+  },
+  "workoutId": 703,
+  "title": "Swimming Technique",
+  "sport": "Swimming",
+  "coachId": 503,
+  "duration": 75,
+  "capacity": 10,
+  "active": true,
+  "equipment": [
+    "Pool",
+    "Kickboard",
+    "Fins"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6aaa3371d8a7c92bb6ad7264"
+  },
+  "workoutId": 704,
+  "title": "Football Training",
+  "sport": "Football",
+  "coachId": 504,
+  "duration": 90,
+  "capacity": 20,
+  "active": false,
+  "equipment": [
+    "Football",
+    "Cones",
+    "Goals"
+  ]
+}]
