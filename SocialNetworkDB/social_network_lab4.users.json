@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df053"
+  },
+  "userId": 101,
+  "name": "Alex",
+  "age": 19,
+  "city": "Almaty",
+  "interests": [
+    "music",
+    "skate"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df054"
+  },
+  "userId": 102,
+  "name": "Dana",
+  "age": 21,
+  "city": "Astana",
+  "interests": [
+    "art",
+    "music"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df055"
+  },
+  "userId": 103,
+  "name": "Max",
+  "age": 20,
+  "city": "Almaty",
+  "interests": [
+    "games",
+    "rock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df056"
+  },
+  "userId": 104,
+  "name": "Sasha",
+  "age": 22,
+  "city": "Shymkent",
+  "interests": [
+    "photography",
+    "travel"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df057"
+  },
+  "userId": 105,
+  "name": "Mika",
+  "age": 19,
+  "city": "Karaganda",
+  "interests": [
+    "music",
+    "fashion"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df058"
+  },
+  "userId": 106,
+  "name": "Tim",
+  "age": 23,
+  "city": "Almaty",
+  "interests": [
+    "programming",
+    "games"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df059"
+  },
+  "userId": 107,
+  "name": "Kate",
+  "age": 20,
+  "city": "Astana",
+  "interests": [
+    "art",
+    "books"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df05a"
+  },
+  "userId": 108,
+  "name": "Nick",
+  "age": 21,
+  "city": "Almaty",
+  "interests": [
+    "rock",
+    "skate"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df05b"
+  },
+  "userId": 109,
+  "name": "Lena",
+  "age": 22,
+  "city": "Aktobe",
+  "interests": [
+    "travel",
+    "photo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6ab36cd79b1e785ac49df05c"
+  },
+  "userId": 110,
+  "name": "Tom",
+  "age": 20,
+  "city": "Almaty",
+  "interests": [
+    "music",
+    "programming"
+  ]
+}]

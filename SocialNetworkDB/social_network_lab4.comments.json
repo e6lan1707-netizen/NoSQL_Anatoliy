@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df07b"
+  },
+  "commentId": 1,
+  "postId": 1,
+  "authorId": 102,
+  "text": "Great riff!"
+},
+{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df07c"
+  },
+  "commentId": 2,
+  "postId": 1,
+  "authorId": 103,
+  "text": "Sounds awesome"
+},
+{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df07d"
+  },
+  "commentId": 3,
+  "postId": 5,
+  "authorId": 101,
+  "text": "Nice rehearsal"
+},
+{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df07e"
+  },
+  "commentId": 4,
+  "postId": 5,
+  "authorId": 108,
+  "text": "Rock on!"
+},
+{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df07f"
+  },
+  "commentId": 5,
+  "postId": 10,
+  "authorId": 105,
+  "text": "Amazing guitar"
+},
+{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df080"
+  },
+  "commentId": 6,
+  "postId": 10,
+  "authorId": 102,
+  "text": "Looks beautiful"
+},
+{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df081"
+  },
+  "commentId": 7,
+  "postId": 20,
+  "authorId": 103,
+  "text": "Great playlist"
+},
+{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df082"
+  },
+  "commentId": 8,
+  "postId": 20,
+  "authorId": 110,
+  "text": "Love this music"
+},
+{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df083"
+  },
+  "commentId": 9,
+  "postId": 24,
+  "authorId": 101,
+  "text": "Beautiful photo"
+},
+{
+  "_id": {
+    "$oid": "6ab36cf69b1e785ac49df084"
+  },
+  "commentId": 10,
+  "postId": 30,
+  "authorId": 105,
+  "text": "Can't wait to hear it"
+}]
