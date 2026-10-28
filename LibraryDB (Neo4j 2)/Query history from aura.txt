@@ -1,0 +1,116 @@
+MATCH (n) RETURN count(n);
+
+MATCH (t:TempBook {id: 999}) RETURN count(t) AS remaining;
+
+MATCH (t:TempBook {id: 999}) DETACH DELETE t;
+
+CREATE (:TempBook {id: 999, title: "Тестовая Книга"});
+
+CALL db.schema.visualization();
+
+MATCH (r1:Reader)-[:BORROWED]->(b:Book)<-[:BORROWED]-(r2:Reader)
+WHERE r1.id < r2.id
+RETURN r1.name AS FirstReader, r2.name AS SecondReader, collect(DISTINCT b.title) AS SharedBooks;
+
+CREATE (:TempBook {id: 999, title: "Тестовая Книга"});
+MATCH (t:TempBook {id: 999}) DETACH DELETE t;
+MATCH (t:TempBook {id: 999}) RETURN count(t) AS remaining;
+
+MATCH (r:Reader {id: 1})-[rel:BORROWED]->(b:Book {id: 101})
+SET rel.returned = true 
+RETURN r.name, rel.returned, b.title;
+
+MATCH (b:Book) WHERE b.year > 1900 RETURN b.title, b.year;
+
+MATCH (r:Reader)-[:BORROWED]->(b:Book)<-[:WROTE]-(a:Author)
+RETURN r.name AS Reader, b.title AS Book, a.name AS Author;
+
+MATCH (b:Book) 
+RETURN b.title AS BookTitle, b.year AS PublicationYear
+ORDER BY PublicationYear DESC LIMIT 3;
+
+MATCH (n) RETURN n;
+
+// Связи авторов и книг (Кто что написал)
+MATCH (a:Author {id: 201}), (b:Book {id: 101}) MERGE (a)-[:WROTE {genre: "Классика"}]->(b)
+MATCH (a:Author {id: 201}), (b:Book {id: 102}) MERGE (a)-[:WROTE {genre: "Классика"}]->(b)
+MATCH (a:Author {id: 202}), (b:Book {id: 103}) MERGE (a)-[:WROTE {genre: "Антиутопия"}]->(b)
+MATCH (a:Author {id: 202}), (b:Book {id: 104}) MERGE (a)-[:WROTE {genre: "Сатира"}]->(b)
+MATCH (a:Author {id: 203}), (b:Book {id: 105}) MERGE (a)-[:WROTE {genre: "Фантастика"}]->(b);
+
+// Связи читателей и книг (Кто что взял)
+MATCH (r:Reader {id: 1}), (b:Book {id: 101}) MERGE (r)-[:BORROWED {date: "2026-10-01"}]->(b)
+MATCH (r:Reader {id: 1}), (b:Book {id: 103}) MERGE (r)-[:BORROWED {date: "2026-10-15"}]->(b)
+MATCH (r:Reader {id: 1}), (b:Book {id: 105}) MERGE (r)-[:BORROWED {date: "2026-10-20"}]->(b)
+
+MATCH (r:Reader {id: 2}), (b:Book {id: 101}) MERGE (r)-[:BORROWED {date: "2026-09-12"}]->(b)
+MATCH (r:Reader {id: 2}), (b:Book {id: 102}) MERGE (r)-[:BORROWED {date: "2026-10-05"}]->(b)
+MATCH (r:Reader {id: 2}), (b:Book {id: 104}) MERGE (r)-[:BORROWED {date: "2026-10-25"}]->(b)
+
+MATCH (r:Reader {id: 3}), (b:Book {id: 103}) MERGE (r)-[:BORROWED {date: "2026-10-10"}]->(b)
+MATCH (r:Reader {id: 3}), (b:Book {id: 105}) MERGE (r)-[:BORROWED {date: "2026-10-22"}]->(b)
+
+MATCH (r:Reader {id: 4}), (b:Book {id: 102}) MERGE (r)-[:BORROWED {date: "2026-10-02"}]->(b)
+MATCH (r:Reader {id: 4}), (b:Book {id: 103}) MERGE (r)-[:BORROWED {date: "2026-10-18"}]->(b);
+
+// 1. Создаем Авторов
+MERGE (a1:Author {id: 201}) SET a1.name = "Фёдор Достоевский", a1.country = "Россия"
+MERGE (a2:Author {id: 202}) SET a2.name = "Джордж Оруэлл", a2.country = "Великобритания"
+MERGE (a3:Author {id: 203}) SET a3.name = "Рэй Брэдбери", a3.country = "США";
+
+// 2. Создаем Книги
+MERGE (b1:Book {id: 101}) SET b1.title = "Преступление и наказание", b1.year = 1866
+MERGE (b2:Book {id: 102}) SET b2.title = "Идиот", b2.year = 1869
+MERGE (b3:Book {id: 103}) SET b3.title = "1984", b3.year = 1949
+MERGE (b4:Book {id: 104}) SET b4.title = "Скотный двор", b4.year = 1945
+MERGE (b5:Book {id: 105}) SET b5.title = "451 градус по Фаренгейту", b5.year = 1953;
+
+// 3. Создаем Читателей
+MERGE (r1:Reader {id: 1}) SET r1.name = "Алексей Иванов", r1.ticketNumber = "A-001"
+MERGE (r2:Reader {id: 2}) SET r2.name = "Мария Петрова", r2.ticketNumber = "M-002"
+MERGE (r3:Reader {id: 3}) SET r3.name = "Иван Сидоров", r3.ticketNumber = "I-003"
+MERGE (r4:Reader {id: 4}) SET r4.name = "Елена Кузнецова", r4.ticketNumber = "E-004";
+
+CREATE CONSTRAINT author_id_unique IF NOT EXISTS FOR (a:Author) REQUIRE a.id IS UNIQUE;
+
+CREATE CONSTRAINT book_id_unique IF NOT EXISTS FOR (b:Book) REQUIRE b.id IS UNIQUE;
+
+CREATE CONSTRAINT reader_id_unique IF NOT EXISTS FOR (r:Reader) REQUIRE r.id IS UNIQUE;
+
+MERGE (a1:Author {id: 201}) SET a1.name = "Фёдор Достоевский", a1.country = "Россия";
+MERGE (a2:Author {id: 202}) SET a2.name = "Джордж Оруэлл", a2.country = "Великобритания";
+MERGE (a3:Author {id: 203}) SET a3.name = "Рэй Брэдбери", a3.country = "США";
+
+MERGE (b1:Book {id: 101}) SET b1.title = "Преступление и наказание", b1.year = 1866;
+MERGE (b2:Book {id: 102}) SET b2.title = "Идиот", b2.year = 1869;
+MERGE (b3:Book {id: 103}) SET b3.title = "1984", b3.year = 1949;
+MERGE (b4:Book {id: 104}) SET b4.title = "Скотный двор", b4.year = 1945;
+MERGE (b5:Book {id: 105}) SET b5.title = "451 градус по Фаренгейту", b5.year = 1953;
+
+MERGE (r1:Reader {id: 1}) SET r1.name = "Алексей Иванов", r1.ticketNumber = "A-001";
+MERGE (r2:Reader {id: 2}) SET r2.name = "Мария Петрова", r2.ticketNumber = "M-002";
+MERGE (r3:Reader {id: 3}) SET r3.name = "Иван Сидоров", r3.ticketNumber = "I-003";
+MERGE (r4:Reader {id: 4}) SET r4.name = "Елена Кузнецова", r4.ticketNumber = "E-004";
+
+MATCH (a:Author {id: 201}), (b:Book {id: 101}) MERGE (a)-[:WROTE {genre: "Классика"}]->(b);
+MATCH (a:Author {id: 201}), (b:Book {id: 102}) MERGE (a)-[:WROTE {genre: "Классика"}]->(b);
+MATCH (a:Author {id: 202}), (b:Book {id: 103}) MERGE (a)-[:WROTE {genre: "Антиутопия"}]->(b);
+MATCH (a:Author {id: 202}), (b:Book {id: 104}) MERGE (a)-[:WROTE {genre: "Сатира"}]->(b);
+MATCH (a:Author {id: 203}), (b:Book {id: 105}) MERGE (a)-[:WROTE {genre: "Фантастика"}]->(b);
+
+MATCH (r:Reader {id: 1}), (b:Book {id: 101}) MERGE (r)-[:BORROWED {date: "2026-10-01"}]->(b);
+MATCH (r:Reader {id: 1}), (b:Book {id: 103}) MERGE (r)-[:BORROWED {date: "2026-10-15"}]->(b);
+MATCH (r:Reader {id: 1}), (b:Book {id: 105}) MERGE (r)-[:BORROWED {date: "2026-10-20"}]->(b);
+MATCH (r:Reader {id: 2}), (b:Book {id: 101}) MERGE (r)-[:BORROWED {date: "2026-09-12"}]->(b);
+MATCH (r:Reader {id: 2}), (b:Book {id: 102}) MERGE (r)-[:BORROWED {date: "2026-10-05"}]->(b);
+MATCH (r:Reader {id: 2}), (b:Book {id: 104}) MERGE (r)-[:BORROWED {date: "2026-10-25"}]->(b);
+MATCH (r:Reader {id: 3}), (b:Book {id: 103}) MERGE (r)-[:BORROWED {date: "2026-10-10"}]->(b);
+MATCH (r:Reader {id: 3}), (b:Book {id: 105}) MERGE (r)-[:BORROWED {date: "2026-10-22"}]->(b);
+MATCH (r:Reader {id: 4}), (b:Book {id: 102}) MERGE (r)-[:BORROWED {date: "2026-10-02"}]->(b);
+MATCH (r:Reader {id: 4}), (b:Book {id: 103}) MERGE (r)-[:BORROWED {date: "2026-10-18"}]->(b);
+
+CREATE CONSTRAINT author_id_unique IF NOT EXISTS FOR (a:Author) REQUIRE a.id IS UNIQUE;
+
+CREATE CONSTRAINT book_id_unique IF NOT EXISTS FOR (b:Book) REQUIRE b.id IS UNIQUE;
+
+CREATE CONSTRAINT reader_id_unique IF NOT EXISTS FOR (r:Reader) REQUIRE r.id IS UNIQUE;
