@@ -1,0 +1,7 @@
+﻿mode,workers,p95,rps
+with_index,1,0.283,5333.1
+with_index,4,0.745,8125.59
+with_index,8,1.739,8306.15
+without_index,1,1.684,745.38
+without_index,4,1.336,3159.66
+without_index,8,1.617,5684.03
